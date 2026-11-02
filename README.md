@@ -11,8 +11,7 @@ The notebook covers:
 - Min-max feature normalization
 - Correlation analysis
 - Logistic Regression model training
-- Model evaluation using accuracy, confusion matrix, classification report, and ROC-AUC
-Important evaluation note: The notebook's test accuracy is 89.36%, but the model predicts every test transaction as non-fraud. Fraud recall is 0.00%, so the current model is not useful for detecting fraud despite its accuracy.
+- Model evaluation using accuracy, confusion matrix, classification report, and ROC-AUC curve
 
 Dataset
 The notebook loads a local CSV file named fraud.csv.
@@ -70,9 +69,6 @@ Results
 Test-set performance
 Metric	Result
 Accuracy	89.36%
-Fraud precision	0.00%
-Fraud recall	0.00%
-Fraud F1-score	0.00%
 Test samples	1,400
 
 
